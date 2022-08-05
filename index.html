@@ -1,0 +1,879 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Ponchi</title>
+	<link rel="icon" type="image/png" href="img/ponchi.png" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='libraries/bootstrap5/css/bootstrap.min.css' type='text/css'>
+	<link rel='stylesheet' href='libraries/lightgallery/css/lightgallery.min.css' type='text/css'>
+	<link rel='stylesheet' href='libraries/owl/dist/assets/owl.carousel.min.css' type='text/css'>	
+	<link rel='stylesheet' href='css/style.css?ver=1.6.2' type='text/css'>
+	<link rel='stylesheet' href='css/adaptive.css?ver=1.6.2' type='text/css'>
+</head>	
+
+<body>
+
+<header class="sticky-top py-0 px-0">	
+	<div class="container">
+	
+		<nav class="navbar navbar-expand-lg justify-content-between py-2 py-lg-0 align-items-center">
+			<a href="index.html" class="me-2 me-md-4"><img src="img/logo.png" class="logo"></a>
+			<a href="#cartModal" data-bs-toggle="modal" data-bs-target="#cartModal" class="ms-auto me-3 me-md-4 d-flex align-items-center d-lg-none position-relative">
+				<img src="img/shopping-cart.svg" class="shopping-cart-icon me-2">
+				<span class="shopping-cart-label small"><span class="cart-total">0</span> грн</span>
+			</a>
+			<a href="tel:+380999998877" target="_blank" class="me-0 d-lg-none"><img src="img/phone.svg" class="header-phone-icon"></a>
+			<button class="navbar-toggler shadow-none ps-3 ps-md-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls=	"navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="img/accordion.png" class="accordion">
+				<img src="img/accordion-close.png" class="accordion-close">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav d-flex w-100 justify-content-around p-0 align-items-center">
+					<li class="nav-item px-0">
+						<a class="nav-link active px-0" href="index.html#menu">Меню</a>
+					</li>
+					<li class="nav-item px-0">
+						<a class="nav-link px-0" href="page-partners.html">Партнерам</a>
+					</li>
+					<li class="nav-item px-0">
+						<a class="nav-link px-0" href="page-special.html">Пропозиція до свят</a>
+					</li>
+					<li class="nav-item px-0 mb-3 mb-lg-0 d-flex">
+						<div class="icon mx-2">
+							<a href="#" class="social_link_header">
+								<img src="img/instagram1.png" class="icon-first icon-size">
+							</a>
+						</div>
+						<div class="icon mx-2">
+							<a href="#" class="social_link_header">
+								<img src="img/facebook1.png" class="icon-first icon-size">
+							</a>
+						</div>
+						<div class="icon mx-2">
+							<a href="#" class="social_link_header">
+								<img src="img/telegram1.png" class="icon-first icon-size2">
+							</a>
+						</div>
+						<div class="icon mx-2">
+							<a href="#" class="social_link_header">
+								<img src="img/viber1.png" class="icon-first icon-size2">
+							</a>
+						</div>						
+					</li>					
+					<li class="nav-item mx-2 px-0 d-none d-lg-block">
+						<a class="px-0 telephone" href="tel:+380999998877">
+							<img src="img/phone.svg" class="header-phone-icon d-xl-none">
+							<span class="d-none d-xl-block">+38 (099) 999 88 77</span>
+						</a>
+					</li>
+				</ul>
+				<div class="d-none d-lg-flex justify-content-center py-4 ps-lg-4">
+					<a href="#cartModal" data-bs-toggle="modal" data-bs-target="#cartModal" class="btn btn-header-primary d-flex justify-content-center shadow-none">
+						<div class="pe-2">КОШИК:</div><div style="font-weight: 900;"><span class="cart-total">0</span> грн</div>
+					</a>
+				</div>
+			</div>
+		</nav>		
+	</div>		
+</header>
+
+<section class="s-1 pt-2 pt-lg-3 position-relative">
+	<div class="container">
+		<div class="top-carousel owl-carousel">
+			<div class="item item1 active">	
+				<div class="row align-items-end">
+					<div class="col-12 col-lg-5 text-center text-lg-start">
+						<div class="balsamiq72 py-2 py-lg-3 mt-2 mt-lg-0">Тому що наші кругліші!</div>
+						<div class="comforta30 py-2 mt-2">Найкругліші пончики  країни у твоєму місті!</div>
+						<div class="comforta22 pt-3 pt-lg-4 pb-0 pb-lg-5 mb-2 mb-lg-3">А ще у нас є: пироги, тарти, бургери, бейгли та купа пригод!</div>
+					</div>
+					<div class="col-12 col-lg-7">
+						<div class="mt-3 mt-md-0 d-flex justify-content-center align-items-center">
+							<img src="img/image-ponchi-s1.png?ver=1" class="px-4 top-carousel-img max-w-100" alt="image-ponchi-s1" loading="lazy">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item2">	
+				<div class="row align-items-end">
+					<div class="c0l-12 col-lg-5 text-center text-lg-start">
+						<div class="balsamiq72 py-2 py-lg-3 mt-2 mt-lg-0">Тому що наші кругліші!</div>
+						<div class="comforta30 py-2 mt-2">Найкругліші пончики  країни у твоєму місті!</div>
+						<div class="comforta22 pt-3 pt-lg-4 pb-0 pb-lg-5 mb-2 mb-lg-3">А ще у нас є: пироги, тарти, бургери, бейгли та купа пригод!</div>
+					</div>
+					<div class="col-12 col-lg-7">
+						<div class="mt-3 mt-md-0 d-flex justify-content-center align-items-center">
+							<img src="img/image-ponchi-s1-2.png?ver=1" class="px-4 top-carousel-img max-w-100" alt="image-ponchi-s1" loading="lazy">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item3">	
+				<div class="row align-items-end">
+					<div class="col-12 col-lg-5 text-center text-lg-start">
+						<div class="balsamiq72 py-2 py-lg-3 mt-2 mt-lg-0">Тому що наші кругліші!</div>
+						<div class="comforta30 py-2 mt-2">Найкругліші пончики  країни у твоєму місті!</div>
+						<div class="comforta22 pt-3 pt-lg-4 pb-0 pb-lg-5 mb-2 mb-lg-3">А ще у нас є: пироги, тарти, бургери, бейгли та купа пригод!</div>
+					</div>
+					<div class="col-12 col-lg-7">
+						<div class="mt-3 mt-md-0 d-flex justify-content-center align-items-center">
+							<img src="img/image-ponchi-s1-3.png?ver=1" class="px-4 top-carousel-img max-w-100" alt="image-ponchi-s1" loading="lazy">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="s-2 pt-5 pb-3 position-relative" id="menu">
+	<div class="container">
+		<div class="d-flex flex-column align-items-center text-center pt-lg-5">
+			<div class="blue-block">Меню</div>
+			<div class="comforta18 pt-4 max-w-800 max-w-mobile-400 mx-auto"><strong>Серед Ponchi представлені всі можливі смаки донатів, напоїв, бургерів, пирогів та багато іншого незабутньо смачного!</strong></div>
+		</div>
+	</div>
+</section>	
+
+<section class="s-3">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg justify-content-between px-0 py-0 mt-3 align-items-center">
+			<ul class="nav nav-pills d-flex w-100 justify-content-center justify-content-lg-around p-0 align-items-center" id="pills-tab" role="tablist">
+				<li class="nav-item mx-2 mx-sm-3 px-0" role="presentation">
+					<button class="nav-link px-0 active" id="pills-ponchki-tab" data-bs-toggle="pill" data-bs-target="#pills-ponchki" type="button" role="tab" aria-controls="pills-ponchki" aria-selected="true"><strong>Пончики</strong></button>
+				</li>
+				<li class="nav-item mx-2 mx-sm-3 px-0" role="presentation">
+					<button class="nav-link px-0" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other" type="button" role="tab" aria-controls="pills-other" aria-selected="false"><strong>Окрім пончиків</strong></button>
+				</li>
+				<li class="nav-item mx-2 mx-sm-3 px-0" role="presentation">
+					<button class="nav-link px-0" id="pills-salty-tab" data-bs-toggle="pill" data-bs-target="#pills-salty" type="button" role="tab" aria-controls="pills-salty" aria-selected="false"><strong>Солоненьке</strong></button>
+				</li>
+				<li class="nav-item mx-2 mx-sm-3 px-0" role="presentation">
+					<button class="nav-link px-0" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false"><strong>Напої</strong></button>
+				</li>
+				<li class="nav-item mx-2 mx-sm-3 px-0" role="presentation">
+					<button class="nav-link px-0" id="pills-selebrate-tab" data-bs-toggle="pill" data-bs-target="#pills-selebrate" type="button" role="tab" aria-controls="pills-selebrate" aria-selected="false"><strong>Пропозиція до свят</strong></button>
+				</li>				
+			</ul>	
+		</nav>
+	</div>
+</section>	
+
+
+<section>
+	<div class="tab-content" id="pills-tabContent">
+		<div class="tab-pane fade show active" id="pills-ponchki" role="tabpanel" aria-labelledby="pills-ponchki-tab">
+		
+			<div class="s-4 pt-1 pb-3 position-relative">
+				<div class="container">
+					<div class="d-flex flex-column align-items-center text-center">
+						<div class="comforta30">Збери власний сет</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="comforta18 pt-2">Спробуй наші сети чи створи свій особистий!</div>
+							</div>	
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="s-5 pt-1 pb-3 position-relative">
+				<div class="container">
+					<div class="shadow box-round p-3">
+						<div class="row px-1 mb-1">
+							<div class="col-4 col-md-2 mb-3 px-2 d-flex">
+								<div class="set-slot card5 d-flex justify-content-around my-set shadow py-2 w-100 px-2 position-relative">
+									<div class="d-flex flex-column justify-content-around fully-box"></div>
+									<div class="d-flex flex-column justify-content-around align-items-center empty-box">
+										<div class="text-center pt-xl-2">
+											<img src="img/add.png" class="card5-add mb-2" alt="add">
+										</div>					
+										<div class="comforta16 add-ponchi text-center px-0 px-lg-3">Додай пончик зі списку нижче</div>
+									</div>									
+									<img src="img/close.svg" class="w-100 card5-close set-slot-empty" alt="close">
+								</div>
+							</div>
+							<div class="col-4 col-md-2 mb-3 px-2 d-flex">
+								<div class="set-slot card5 d-flex justify-content-around my-set shadow py-2 w-100 px-2 position-relative">
+									<div class="d-flex flex-column justify-content-around fully-box"></div>
+									<div class="d-flex flex-column justify-content-around align-items-center empty-box">
+										<div class="text-center pt-xl-2">
+											<img src="img/add.png" class="card5-add mb-2" alt="add">
+										</div>					
+										<div class="comforta16 add-ponchi text-center px-0 px-lg-3">Додай пончик зі списку нижче</div>
+									</div>
+									<img src="img/close.svg" class="w-100 card5-close set-slot-empty" alt="close">
+								</div>
+							</div>	
+							<div class="col-4 col-md-2 mb-3 px-2 d-flex">
+								<div class="set-slot card5 d-flex justify-content-around my-set shadow py-2 w-100 px-2 position-relative">
+									<div class="d-flex flex-column justify-content-around fully-box"></div>
+									<div class="d-flex flex-column justify-content-around align-items-center empty-box">
+										<div class="text-center pt-xl-2">
+											<img src="img/add.png" class="card5-add mb-2" alt="add">
+										</div>					
+										<div class="comforta16 add-ponchi text-center px-0 px-lg-3">Додай пончик зі списку нижче</div>
+									</div>
+									<img src="img/close.svg" class="w-100 card5-close set-slot-empty" alt="close">
+								</div>
+							</div>
+							<div class="col-4 col-md-2 mb-3 px-2 d-flex">
+								<div class="set-slot card5 d-flex justify-content-around my-set shadow py-2 w-100 px-2 position-relative">
+									<div class="d-flex flex-column justify-content-around fully-box"></div>
+									<div class="d-flex flex-column justify-content-around align-items-center empty-box">
+										<div class="text-center pt-xl-2">
+											<img src="img/add.png" class="card5-add mb-2" alt="add">
+										</div>					
+										<div class="comforta16 add-ponchi text-center px-0 px-lg-3">Додай пончик зі списку нижче</div>
+									</div>
+									<img src="img/close.svg" class="w-100 card5-close set-slot-empty" alt="close">
+								</div>
+							</div>
+							<div class="col-4 col-md-2 mb-3 px-2 d-flex">
+								<div class="set-slot card5 d-flex justify-content-around my-set shadow py-2 w-100 px-2 position-relative">
+									<div class="d-flex flex-column justify-content-around fully-box"></div>
+									<div class="d-flex flex-column justify-content-around align-items-center empty-box">
+										<div class="text-center pt-xl-2">
+											<img src="img/add.png" class="card5-add mb-2" alt="add">
+										</div>					
+										<div class="comforta16 add-ponchi text-center px-0 px-lg-3">Додай пончик зі списку нижче</div>
+									</div>
+									<img src="img/close.svg" class="w-100 card5-close set-slot-empty" alt="close">
+								</div>
+							</div>
+							<div class="col-4 col-md-2 mb-3 px-2 d-flex">
+								<div class="set-slot card5 d-flex justify-content-around my-set shadow py-2 w-100 px-2 position-relative">
+									<div class="d-flex flex-column justify-content-around fully-box"></div>
+									<div class="d-flex flex-column justify-content-around align-items-center empty-box">
+										<div class="text-center pt-xl-2">
+											<img src="img/add.png" class="card5-add mb-2" alt="add">
+										</div>					
+										<div class="comforta16 add-ponchi text-center px-0 px-lg-3">Додай пончик зі списку нижче</div>
+									</div>
+									<img src="img/close.svg" class="w-100 card5-close set-slot-empty" alt="close">
+								</div>
+							</div>		
+						</div>
+						<div class="d-block d-lg-flex text-center justify-content-between align-items-center pt-0 pb-1">
+							<div class="comforta16 add-ponchi mb-2 mb-md-0 d-none d-md-block">Замовлення можливо сформувати зібравши сет із 6 пончиків</div>
+							<div class="d-flex align-items-center justify-content-center mb-0 total-order-box">
+								<div class="comforta18 my-0 me-3 me-lg-4"><span class="text-dark">Загальна вартість: </span><span class="set-total">0</span> грн</div>
+								<div><button type="button" class="btn btn-lite-primary shadow-none add-to-cart-set add-to-cart" data-id="" disabled>Замовити сет</button></div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+			<div class="s-6 py-3 mb-5 position-relative">
+				<div class="container mb-lg-5">
+					<div class="yoursset-carousel owl-carousel">
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+								<img src="img/set1.png" class="card-img-top" alt="set">
+								<div class="card-img-overlay hit">
+									<div class=" balsamiq14">Хіт продажів</div>
+								</div>
+								<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+									<h5 class="card-title">Манговий Рузвельт</h5>
+									<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+									<div class="d-flex align-items-center justify-content-between">
+										<div class="comforta18 mb-0 me-2">10 грн</div>
+										<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="10" data-id="1" data-img="img/set1.png" data-title="Манговий Рузвельт">Додати</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set2.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Полуничний Клінтон</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">29 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="29" data-id="2" data-img="img/set2.png" data-title="Полуничний Клінтон">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set3.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Ананасовий Ніксон</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">29 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="29" data-id="3" data-img="img/set3.png" data-title="Ананасовий Ніксон">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set4.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Вишневий Лінкольн</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">29 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="29" data-id="4" data-img="img/set4.png" data-title="Вишневий Лінкольн">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set1.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Манговий Рузвельт</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">29 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="29" data-id="5" data-img="img/set1.png" data-title="Манговий Рузвельт">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set1.png" class="card-img-top" alt="set" >
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Манговий Рузвельт</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">20 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="20" data-id="6" data-img="img/set1.png" data-title="Манговий Рузвельт">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set1.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Манговий Рузвельт</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">29 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="29" data-id="7" data-img="img/set1.png" data-title="Манговий Рузвельт">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set1.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Манговий Рузвельт</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">29 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="29" data-id="8" data-img="img/set1.png" data-title="Манговий Рузвельт">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>
+						<div class="item pb-3">
+							<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+							  <img src="img/set1.png" class="card-img-top" alt="set">
+							  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+								<h5 class="card-title">Манговий Рузвельт</h5>
+								<p class="card-text mt-2 mb-3">Класичний американський пончик без начинки в шоколадній глазурі зі смаком темного (молочного) шоколаду. В основі здобне дріжджове тісто.</p>
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="comforta18 mb-0 me-2">19 грн</div>
+									<a href="#" class="btn btn-primary shadow-none add-to-set" data-price="19" data-id="9" data-img="img/set1.png" data-title="Манговий Рузвельт">Додати</a>
+								</div>
+							  </div>
+							</div>
+						</div>			
+					</div>
+					<div class="balsamiq36 number text-center mt-3">1 / 7</div>					
+				</div>
+			</div>
+
+		</div>
+		<div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="pills-other-tab">
+			<div class="container py-5 comforta18 text-center">
+				<p>Ще немає матеріалів ...</p>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="pills-salty" role="tabpanel" aria-labelledby="pills-salty-tab">
+			<div class="container py-5 comforta18 text-center">
+				<p>Ще немає матеріалів ...</p>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
+			<div class="container py-5 comforta18 text-center">
+				<p>Ще немає матеріалів ...</p>
+			</div>
+		</div>
+		<div class="tab-pane fade" id="pills-selebrate" role="tabpanel" aria-labelledby="pills-selebrate-tab">
+			<div class="container py-5 comforta18 text-center">
+				<p>Ще немає матеріалів ...</p>
+			</div>
+		</div>			
+	</div>
+</section>
+
+
+<section class="s-7 py-3 mb-lg-5 position-relative ">
+	<div class="container">
+		<div class="my-5 d-flex flex-column align-items-center d-md-block">
+			<div class="balsamiq48 pt-lg-5">ВЛАШТУЙ СВЯТО!</div>
+			<div class="balsamiq36 text-center text-sm-start py-4">Обирай власне меню та</br> отримай незабутні враження!</div>
+			<div class="d-flex align-items-center justify-content-between">
+				<a href="#" class="btn btn-pink mb-2 mb-md-4 mt-2">СФОРМУВАТИ МЕНЮ</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="s-8 pb-3">
+	<div class="container">
+		<div class="d-flex flex-column align-items-center text-center pt-5">
+			<div class="blue-block px-5">Топ пропозиції</div>
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="col-12 col-md-9">
+					<div class="comforta18 pt-4">
+						Топ пропозиції - це наш топчик, котрий обирають справжні шанувальники солодкого, солоного, смачного!
+					</div>
+				</div>	
+			</div>	
+		</div>
+	</div>
+</section>
+
+<section class="s-9 py-3 mb-5 position-relative">
+	<div class="container mb-lg-5">
+		<div class="thebest-carousel owl-carousel">
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+					<img src="img/best1.png" class="card-img-top" alt="set">
+						<div class="card-img-overlay hit">
+							<div class=" balsamiq14">Хіт продажів</div>
+						</div>
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Pizza pie mini<br>гриби-бекон</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+					<img src="img/best2.png" class="card-img-top" alt="set">
+					<div class="card-img-overlay sale">
+						<div class=" balsamiq14">-25%</div>
+					</div>					
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Тарт горіховий із солоною карамеллю</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+				  <img src="img/best3.png" class="card-img-top" alt="set">
+				  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+					<h5 class="card-title">Панакота</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+				  </div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+				  <img src="img/best4.png" class="card-img-top" alt="set">
+					<div class="card-img-overlay hit">
+						<div class=" balsamiq14">Хіт продажів</div>
+					</div>				  
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Сет шість президентів</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+					<img src="img/best1.png" class="card-img-top" alt="set">
+						<div class="card-img-overlay hit">
+							<div class=" balsamiq14">Хіт продажів</div>
+						</div>
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Pizza pie mini<br>гриби-бекон</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+					<img src="img/best2.png" class="card-img-top" alt="set">
+					<div class="card-img-overlay sale">
+						<div class="balsamiq14">-25%</div>
+					</div>					
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Тарт горіховий із солоною карамеллю</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+				  <img src="img/best3.png" class="card-img-top" alt="set">
+				  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+					<h5 class="card-title">Панакота</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+				  </div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+				  <img src="img/best4.png" class="card-img-top" alt="set">
+					<div class="card-img-overlay hit">
+						<div class=" balsamiq14">Хіт продажів</div>
+					</div>				  
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Сет шість президентів</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+					<img src="img/best1.png" class="card-img-top" alt="set">
+						<div class="card-img-overlay hit">
+							<div class="balsamiq14">Хіт продажів</div>
+						</div>
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Pizza pie mini<br>гриби-бекон</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+					<img src="img/best2.png" class="card-img-top" alt="set">
+					<div class="card-img-overlay sale">
+						<div class=" balsamiq14">-25%</div>
+					</div>					
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Тарт горіховий із солоною карамеллю</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+				  <img src="img/best3.png" class="card-img-top" alt="set">
+				  <div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+					<h5 class="card-title">Панакота</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+				  </div>
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div class="card card-set shadow-sm" data-toggle="gallery" data-target="gallery.json">
+				  <img src="img/best4.png" class="card-img-top" alt="set">
+					<div class="card-img-overlay hit">
+						<div class=" balsamiq14">Хіт продажів</div>
+					</div>				  
+					<div class="card-body d-flex flex-column justify-content-between px-2 px-md-3">
+						<h5 class="card-title">Сет шість президентів</h5>
+						<div class="d-flex align-items-center justify-content-between">
+							<div class="comforta18 mb-0">49 грн</div>
+							<a href="#" class="btn btn-primary shadow-none add-to-cart">В кошик</a>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+	<div class="balsamiq36 number text-center mt-3">1 / 7</div>			
+	</div>
+</section>
+
+<section class="s-10 py-3 mb-lg-5 position-relative">
+	<div class="container">
+		<div class="my-5 row align-items-center px-1">
+			<div class="col-12 col-sm-6 order-2 order-sm-1 px-2"> 
+				<div class="balsamiq48 pt-md-5">НОВИНКА!</div>
+				<div class="balsamiq36 py-4">Глазурований пончик з<br> фундуком та шоколадною</br> начинкою!</div>
+				<div class="text-start s-10-btn">
+					<a href="#" class="btn btn-pink mb-2 mb-md-4 mt-2">ЗАМОВИТИ</a>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 order-1 order-sm-2 px-2">
+				<img src="img/keyvis-nutzilla.png" class="w-100 mb-4 mb-sm-0">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="s-12 py-5 mb-lg-5 position-relative">
+	<div class="container">
+		<div class="d-flex flex-column align-items-center text-center pb-3 pb-md-5 pt-4 mb-3 mb-md-5">
+			<div class="blue-block px-5">Яка краса</div>
+		</div>	
+		<div class="balsamiq36 number text-center ">1 / 7</div>	
+		<div class="beauty-carousel owl-carousel mt-4">
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty1.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty2.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty3.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty1.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty2.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty3.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty1.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty2.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty3.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty1.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty2.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty3.png" class="w-100" alt="set">
+				</div>
+			</div>	
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty1.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty2.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty3.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty1.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty2.png" class="w-100" alt="set">
+				</div>
+			</div>
+			<div class="item pb-3">
+				<div>
+				  <img src="img/beauty3.png" class="w-100" alt="set">
+				</div>
+			</div>				
+		</div>
+	</div>	
+</section>		
+
+<section class="s-13 py-4">
+	<div class="container">
+		<div class="d-flex flex-column align-items-center text-center py-lg-5">
+			<div class="pt-5 pt-md-5"><img src="img/logo1.png" class="w-100" alt="logo"></div>
+			<div class="comforta30 pt-4">Тут текст про нас</div>
+			<div class="pb-5">
+				<div class="comforta18 pt-3 max-w-400 mx-auto">
+					Всі наші донати виготовляються кожного ранку з живого дріжджового тіста. Для начинки використовуємо справжні ягоди, такі як, малина, чорниця, вишня та натуральні горіхові пасти з мигдалю та фісташки.
+				</div>	
+			</div>	
+		</div>
+	</div>
+</section>
+
+<section class="s-14 pt-lg-5 pb-xl-4 px-0 container-fluid">
+	<div class="container">
+		<div class="contact-box position-relative">
+			
+			<div class="d-flex flex-column align-items-center align-items-lg-start pt-5">
+				<div class="blue-block px-4 px-sm-5">Зворотній зв’язок</div>
+			</div>
+
+			<div class="row mt-lg-4 mb-xl-5">
+				<div class="col-12">
+					<div class="shadow connect-us  my-4 my-md-5 px-4 py-3 ">
+						<div class="box-form px-4">
+							<div class="col-12 col-lg-7 comforta36 pt-4">Маєш питання чи пропозиції?</div>
+							<div class="col-12 col-lg-6 col-xl-8 comforta18 pt-3"><strong>Напиши свої контактні дані і ми обов’язково зв’яжемось з тобою.</strong></div>
+							<form class="mb-3 pt-3 col-12 col-lg-7">
+								<div class="row justify-content-between">
+									<div class="d-flex flex-column justify-content-between col-12 col-md-6 mt-4 mb-md-4">
+										<input type="text" class="form-control mb-3 py-3 shadow-none" id="inputName" name="fio" placeholder="Моє ім’я . . ." required>
+										<input type="text" class="form-control mb-3 py-3 shadow-none" id="inputTel" name="phone" placeholder="Мій номер телефону . . ." required>
+										<input type="text" class="form-control mb-3 mb-md-0 py-3 shadow-none" id="inputEmail" placeholder="Мій email . . ." name="email">							
+									</div>
+									<div class="d-flex flex-column justify-content-between col-12 col-md-6 mt-md-4 mb-4">
+										<div class="ps-0 ps-md-4">
+											<textarea class="form-control mb-3" rows="5" name="comment" placeholder="Мій коментар . . ."></textarea>
+											<button type="submit" class="btn btn-pink w-100 px-1 px-lg-3">ЗВ'ЯЖІТЬСЯ ЗІ МНОЮ</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+			
+<footer class="py-5">
+	<div class="container">
+		<div class="d-block text-center d-md-flex justify-content-between py-0 align-items-center">
+			<div class="logo-block py-4 pe-xl-5 pe-lg-4 d-flex align-items-center justify-content-center">
+				<a href="index.html" class="d-flex align-items-center"><img src="img/logo.png" class="w-100 logo"></a>
+			</div>
+			<div class="d-block text-center d-lg-flex align-items-center justify-content-between w-100 footer-menu pe-xl-4">
+				<div class="nav-item d-flex justify-content-center align-items-center">
+					<a class="nav-link active px-0" href="#">Меню</a>
+				</div>
+				<div class="nav-item px-0 d-flex justify-content-center align-items-center">
+					<a class="nav-link px-0" href="#">Партнерам</a>
+				</div>
+				<div class="nav-item px-0 d-flex justify-content-center align-items-center">
+					<a class="nav-link px-0" href="#">Пропозиція до свят</a>
+				</div>
+				<div class="nav-item px-0 mb-3 mb-lg-0 d-flex justify-content-center">
+					<div class="icon mx-2">
+						<a href="#" class="social_link_header">
+							<img src="img/instagram1.png" class="icon-first icon-size">
+						</a>
+					</div>
+					<div class="icon mx-2">
+						<a href="#" class="social_link_header">
+							<img src="img/facebook1.png" class="icon-first icon-size">
+						</a>
+					</div>
+					<div class="icon mx-2">
+						<a href="#" class="social_link_header">
+							<img src="img/telegram1.png" class="icon-first icon-size2">
+						</a>
+					</div>
+					<div class="icon mx-2">
+						<a href="#" class="social_link_header">
+							<img src="img/viber1.png" class="icon-first icon-size2">
+						</a>
+					</div>						
+				</div>					
+				<div class="nav-item px-0 mb-1">
+					<a class="px-0 telephone" href="tel:+380999998877">+38 (099) 999 88 77</a>
+				</div>
+			</div>	
+			<div class="d-flex align-items-center justify-content-center ps-lg-3 ps-xl-4 py-4">
+				<a href="" target="_blank" rel="nofollow" class="btn btn-header-primary d-flex justify-content-center shadow-none">
+					ЗВОРОТНІЙ ЗВ'ЯЗОК</span>
+				</a>
+			</div>
+		</div>		
+	</div>	
+</footer>
+
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Кошик</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				[Ще в процесі ...]
+			</div>
+			<div class="modal-footer">
+				<a href="checkout.html" class="btn btn-primary">Оформити замовлення</a>
+				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Закрити</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type='text/javascript' src='libraries/jquery/jquery-3.4.1.min.js' defer></script>
+<script type='text/javascript' src='libraries/bootstrap5/js/bootstrap.bundle.min.js' defer></script>
+<script type='text/javascript' src='libraries/lightgallery/js/lightgallery.min.js' defer></script>
+<script type='text/javascript' src='libraries/owl/dist/owl.carousel.min.js' defer></script>
+<script type='text/javascript' src='js/site.js?ver=1.3.7' defer></script>
+	
+</body>
+</html>
